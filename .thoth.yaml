@@ -15,22 +15,22 @@ runtime_environments:
 managers:
   - name: info
     configuration:
-      enabled: false
+      enabled: true
   - name: label-bot
     configuration:
-      enabled: false
+      enabled: true
   - name: pipfile-requirements
     configuration:
-      enabled: false
+      enabled: true
   - name: thoth-advise
     configuration:
-      enabled: false
+      enabled: true
   - name: thoth-provenance
     configuration:
-      enabled: false
+      enabled: true
   - name: update
     configuration:
-      enabled: false
+      enabled: true
   - name: version
     configuration:
-      enabled: false
+      enabled: true
