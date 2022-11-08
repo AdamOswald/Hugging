@@ -30,7 +30,7 @@ managers:
       enabled: false
   - name: update
     configuration:
-      enabled: true
+      enabled: false
   - name: version
     configuration:
       enabled: false
