@@ -19,9 +19,12 @@ managers:
   - name: label-bot
     configuration:
       enabled: true
+  - name: requirements
+    configuration: requirements.txt
+      enabled: true
   - name: pipfile-requirements
     configuration:
-      enabled: true
+      enabled: false
   - name: thoth-advise
     configuration:
       enabled: true
