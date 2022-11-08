@@ -86,3 +86,4 @@ lpips
 dlib
 gdown
 git+https://github.com/openai/CLIP.git
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
