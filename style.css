@@ -21,7 +21,7 @@ div#result-video {
   max-width: 400px;
   max-height: 400px;
 }
-img#visitor-badge {
+#visitor-badge {
   display: block;
   margin: auto;
 }
