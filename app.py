@@ -80,6 +80,10 @@ pipeline = DiffusionPipeline.from_pretrained("flax/Cyberpunk-Anime-Diffusion")
 pipeline = DiffusionPipeline.from_pretrained("technillogue/waifu-diffusion")
 pipeline = DiffusionPipeline.from_pretrained("svjack/Stable-Diffusion-Pokemon-en")
 
+stable_inversion = "user/my-stable-inversion" #@param {type:"string"}
+inversion_path = hf_hub_download(repo_id=stable_inversion, filename="token_embeddings.pt")
+text_encoder.text_model.embeddings.token_embedding.weight = torch.load(inversion_path)
+
 subprocess.run(["make", "build-all"], shell=False)
 img_to_text = gr.Blocks.load(name="spaces/pharma/CLIP-Interrogator")
 stable_diffusion = gr.Blocks.load(name="spaces/stabilityai/stable-diffusion")
