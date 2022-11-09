@@ -38,6 +38,7 @@ from torch import autocast
 from diffusers import StableDiffusionPipeline
 from transformers import pipeline, set_seed
 from huggingface_hub import HfApi
+from huggingface_hub import hf_hub_download
 from transformers import CLIPTextModel, CLIPTokenizer
 from diffusers import AutoencoderKL, UNet2DConditionModel
 from diffusers import StableDiffusionImg2ImgPipeline 
