@@ -293,6 +293,9 @@ models = [
      Model("Waifu", "yuiqena/GenshinImpact", "Genshin"),
      Model("Waifu", "yuiqena/GenshinImpact", "Genshin Impact"),
      Model("Genshin", "yuiqena/GenshinImpact", ""),
+     Model("Waifu", "hakurei/waifu-diffusion, flax/waifu-diffusion, technillogue/waifu-diffusion", ""),
+     Model("Pokémon", "lambdalabs/sd-pokemon-diffusers, svjack/Stable-Diffusion-Pokemon-en", "pokemon style"),
+     Model("Pokémon", "lambdalabs/sd-pokemon-diffusers, svjack/Stable-Diffusion-Pokemon-en", ""),
 
 ]
 
