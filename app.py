@@ -284,6 +284,15 @@ models = [
      Model("Genshin", "Fampai/hutao_genshin_impact", "woman",
      Model("Genshin", "Fampai/hutao_genshin_impact", "Girl",
      Model("Genshin", "Fampai/hutao_genshin_impact", "girl",
+     Model("Waifu", "crumb/genshin-stable-inversion, yuiqena/GenshinImpact, Fampai/lumine_genshin_impact, Eppinette/Mona, sd-concepts-library/ganyu-genshin-impact, Fampai/raiden_genshin_impact, Fampai/hutao_genshin_impact", "Genshin"),
+     Model("Waifu", "crumb/genshin-stable-inversion, yuiqena/GenshinImpact, Fampai/lumine_genshin_impact, Eppinette/Mona, sd-concepts-library/ganyu-genshin-impact, Fampai/raiden_genshin_impact, Fampai/hutao_genshin_impact", "Genshin Impact"),
+     Model("Genshin", "crumb/genshin-stable-inversion, yuiqena/GenshinImpact, Fampai/lumine_genshin_impact, Eppinette/Mona, sd-concepts-library/ganyu-genshin-impact, Fampai/raiden_genshin_impact, Fampai/hutao_genshin_impact", ""),
+     Model("Waifu", "crumb/genshin-stable-inversion", "Genshin"),
+     Model("Waifu", "crumb/genshin-stable-inversion", "Genshin Impact"),
+     Model("Genshin", "crumb/genshin-stable-inversion", ""),
+     Model("Waifu", "yuiqena/GenshinImpact", "Genshin"),
+     Model("Waifu", "yuiqena/GenshinImpact", "Genshin Impact"),
+     Model("Genshin", "yuiqena/GenshinImpact", ""),
 
 ]
 
