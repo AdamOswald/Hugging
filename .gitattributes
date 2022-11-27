@@ -154,6 +154,7 @@ CHANGELOG.md export-ignore
 *.js linguist-vendored
 CHANGELOG.md export-ignore
 *.scpt filter=osa
+
 # Source files
 # ============
 *.pxd    text diff=python
